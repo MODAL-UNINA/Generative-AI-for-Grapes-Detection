@@ -1,0 +1,12 @@
+path: ../Dataset_YOLO  # dataset root dir
+train: 
+  - wgisd/train/images
+  
+val: 
+  - wgisd/val/images
+    
+test: 
+  - wgisd/test/images
+  
+nc: 1
+names: ['Grape']
