@@ -1,0 +1,18 @@
+name: cycle_yolo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip=25
+  - numpy=1.26
+  - pytorch::pytorch=2.4
+  - pytorch::pytorch-cuda=12.1
+  - pytorch::torchvision=0.19
+  - pytorch::torchaudio=2.4
+  - ultralytics=8.3
+  - conda-forge::dominate
+  - conda-forge::wandb
+  - conda-forge::visdom
