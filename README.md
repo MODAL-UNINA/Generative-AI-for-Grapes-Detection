@@ -89,7 +89,7 @@ Dataset_YOLO
 ```
 To begin training the  model, run the following command to start the training process:
 ```sh
-python yolo_train.py --train True\
+python yolo_train.py --train
             --dataset wgisd\
             --batch_size 32\
             --device 0\
