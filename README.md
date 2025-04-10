@@ -53,7 +53,7 @@ Then, run the following command to start the training process:
 ```sh
 python train.py --dataroot $your_folder/Dataset_CycleGAN/created_dataset\
              --num_threads 10\
-             --name Grapes\
+             --name Grapes2\
              --dataset_mode unaligned\
              --checkpoints_dir $your_folder/CycleGAN/model_saves\
              --model cycle_gan\
