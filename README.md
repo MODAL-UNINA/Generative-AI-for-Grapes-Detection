@@ -42,6 +42,7 @@ Dataset_CyleGAN
     ├── trainA # (domain A images)
     └── trainB # (domain B images)
 ```
+### **Training**
 To begin training the CycleGAN model, navigate to the `CycleGAN` directory by running:
 
 ```sh
@@ -67,6 +68,14 @@ python train.py --dataroot $your_folder/Dataset_CycleGAN/created_dataset\
              --save_epoch_freq 100
 ```
 Feel free to modify these values based on your hardware or specific requirements for the project.
+
+### **Generating**
+Run the following command to start the generation process:
+```sh
+python generate.py --checkpoints_dir $your_folder/CycleGAN/model_saves\
+                --name Grapes
+```
+
 
 ## 2. Classification
 ## Prepare Data**
